@@ -14,8 +14,8 @@ export class Example extends Component {
 
 testMethod(){
 
-      keych.getDeviceId().then((credentials)=>{
-        console.log("udid : ",credentials)
+      keych.getDeviceId().then((deviceId)=>{
+        console.log("udid : ",deviceId)
       })
   }
 }
